@@ -59,7 +59,7 @@ body{
 
 .contents{
   padding: 20px;
-  margin-top: 15px;
+  margin: 15px 0;
 }
 
 .contents h2{
@@ -121,8 +121,46 @@ body{
 }
 .price-change:hover{
   text-decoration: none;
-  color: #7C73D3;
+  color: #766CF1;
+  cursor: pointer;
   transition: all 0.3s ease;
+}
+
+.payment-button{
+  width: 95%;
+  background-color: var(--bright-blue);
+  color: white;
+  font-family: var(--font-red-hat);
+  text-decoration: none;
+  padding: 14px;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: 740;
+}
+
+.payment-button:hover{
+  background-color: #766CF1;
+  color: white;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.cancel {
+  margin-top: 15px;
+  font-family: var(--font-red-hat);
+  background-color: transparent;
+  color: var(--desaturated-blue);
+  border: none;
+  font-size: 16px;
+  font-weight: 740;
+  cursor: pointer;
+}
+
+.cancel:hover{
+  color: var(--dark-blue);
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
 }
 
 .attribution {
