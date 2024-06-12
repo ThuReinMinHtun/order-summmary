@@ -27,7 +27,103 @@ body{
     background-size: contain;
 }
 
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+  padding: 20px;
+  transition: all 0.7s ease-in;
+}
 
+.card{
+  background-color: white;
+  border-radius: 15px ;
+  overflow: hidden;
+  text-align: center;
+  box-shadow:0 10px 20px rgba(0, 0, 0, 0.1) ;
+  
+}
+
+.img-section{
+  width: 100%;
+  max-width: 420px;
+}
+
+.img-section img{
+    width: 100%;
+    height: auto;
+}
+
+.contents{
+  padding: 20px;
+  margin-top: 15px;
+}
+
+.contents h2{
+  font-weight: bold;
+  font-style: normal;
+  color: var(--dark-blue);
+}
+
+.contents p{
+  color: var(--desaturated-blue);
+  font-size: 16px;
+  font-weight: 450;
+  margin:20px 10px;
+  line-height: 1.5;
+  padding: 0 15px;
+}
+
+.order{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--very-pale-blue);
+    margin: 20px 10px;
+    border-radius: 15px;
+    padding:0 15px;
+}
+
+.order-details{
+  display: flex;
+  align-items: center;
+}
+
+
+.order-details img{
+  width: 40px ;
+  height: 40px;
+  margin-right: 10px;
+}
+
+
+.order-details .title{
+  color: var(--dark-blue);
+  margin: 20px 5px 0  ;
+  font-size: 18px;
+  font-weight:bold;
+}
+
+.order-details .price{
+  color: var(--desaturated-blue);
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.price-change{
+  margin-left: 40px;
+  font-weight: 700;
+  color: var(--bright-blue);
+
+}
+.price-change:hover{
+  text-decoration: none;
+  color: #7C73D3;
+  transition: all 0.3s ease;
+}
 
 .attribution {
   font-size: 11px;
